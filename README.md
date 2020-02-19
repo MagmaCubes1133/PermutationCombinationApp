@@ -9,3 +9,5 @@ I'm open to constructive criticism and keen to improve, so please feel free to g
 
 CURRENT ISSUES(Please suggest solutions if you can):
 This application cannot give correct answers for permutations and combinations that involve values above the maximum value of an unsigned long long data type(8 Bytes or numbers greater than 18 446 744 073 709 551 615). Values such as these occur in large factorial calculations.
+Example: For calculations like 55C15 this program multiplies backwards from 55 up to 16 and divides it by 15! However, this multiplication results in a very large value that when trunkated gives and inaccurate answer. 
+please suggest a solution or an alternate algorithm to fix this problem if you can.
